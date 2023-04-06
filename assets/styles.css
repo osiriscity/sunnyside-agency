@@ -1,0 +1,38 @@
+/* Primary */
+/* Neutral */
+@media screen {
+  body {
+    text-align: justify;
+  }
+  header .card-0 {
+    max-width: 375px;
+  }
+  header .card-0 img {
+    max-width: 375px;
+  }
+  header .card-0 h1 {
+    color: rgb(8, 8, 8);
+    text-align: center;
+    transform: translateY(-2px);
+    margin-left: 30%;
+  }
+  main .card-1 {
+    margin: 0%;
+  }
+  main .card-2 {
+    margin: 0%;
+  }
+  main .card-3 {
+    margin: 0%;
+  }
+  main .card-3 .mini-card {
+    margin: 0%;
+  }
+  main .gird-container {
+    grid-template-columns: 1fr, 1fr;
+    grid-template-rows: 1fr, 1fr;
+  }
+  footer .card-4 {
+    margin: 0%;
+  }
+}

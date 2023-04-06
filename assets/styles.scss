@@ -1,0 +1,65 @@
+/* Primary */
+$color-soft-red: hsl(7, 99%, 70%);
+$color-Yellow: hsl(51, 100%, 49%);
+$color-Dark-desaturated-cyan: hsl(167, 40%, 24%);
+$color-Dark-blue: hsl(198, 62%, 26%);
+$color-Dark-moderate-cyan: hsl(168, 34%, 41%);
+
+/* Neutral */
+
+$color-Very-dark-desaturated-blue: hsl(212, 27%, 19%);
+$color-Very-dark-grayish-blue: hsl(213, 9%, 39%);
+$color-Dark-grayish-blue: hsl(232, 10%, 55%);
+$color-Grayish-blue: hsl(210, 4%, 67%);
+$color-White: hsl(0, 0%, 100%);
+
+
+@media screen {
+    body{
+        text-align: justify;  
+    }
+
+    header{
+        .card-0{
+            max-width: 375px;
+            img{
+                max-width: 375px;
+            }
+            h1{
+                color: rgb(8, 8, 8);
+                text-align: center;
+                transform: translateY(-2px);
+                margin-left: 30%;
+            }
+        }
+    }
+
+    main{
+        .card-1{
+            margin: 0%;
+        }
+
+        .card-2{
+            margin: 0%;
+        }
+
+        .card-3{
+            margin: 0%;
+
+            .mini-card{
+                margin: 0%;
+            }
+        }
+
+        .gird-container{
+            grid-template-columns: 1fr, 1fr;
+            grid-template-rows: 1fr, 1fr;
+        }
+    }
+
+    footer{
+        .card-4{
+            margin: 0%;
+        }
+    }
+}
